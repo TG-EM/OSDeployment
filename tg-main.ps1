@@ -38,7 +38,7 @@ if ($env:SystemDrive -eq 'X:') {
     $Product = Get-MyComputerProduct
 
     $OSVersion    = 'Windows 11'
-    $OSReleaseID  = '25H2'
+    $OSReleaseID  = '24H2'
     $OSName       = "Windows 11 $OSReleaseID x64"
     $OSEdition    = 'Pro'
     $OSActivation = 'Volume'
