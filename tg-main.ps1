@@ -61,7 +61,7 @@ if ($env:SystemDrive -eq 'X:') {
         RecoveryPartition     = $true
         OEMActivation         = $true
         WindowsUpdate         = $true
-        WindowsUpdateDrivers  = $true
+        WindowsUpdateDrivers  = $false
         WindowsDefenderUpdate = $true
         SetTimeZone           = $true
         ClearDiskConfirm      = $false
